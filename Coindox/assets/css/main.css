@@ -258,6 +258,9 @@ span {
 .pos-rel {
   position: relative;
 }
+.PunteroDardo {
+  margin-left: 150px;
+}
 
 .pos-absolute {
   position: absolute;
@@ -5327,6 +5330,10 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
 .token__img {
   margin-right: -50px;
 }
+
+.Money-Stoncks {
+  margin-left: 200px;
+}
 @media (max-width: 1199px) {
   .token__img {
     margin-right: 0;
@@ -5384,6 +5391,10 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
   margin-top: -69px;
   margin-right: -14px;
   position: relative;
+}
+
+.nave-Despegue {
+  margin-left: 150px;
 }
 @media (max-width: 991px) {
   .token-info__img {
