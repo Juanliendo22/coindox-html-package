@@ -386,6 +386,10 @@ span {
   .tx-col-md-6 {
     width: 50%;
   }
+  .PunteroDardo {
+    width: 300px;
+    margin-left: 35px;
+  }
 }
 @media (max-width: 767px) {
   .tx-col-md-6 {
@@ -5368,6 +5372,10 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
   .token__img {
     margin-right: 0;
   }
+  .Money-Stoncks {
+    width: 300px;
+    margin-left: 50px;
+  }
 }
 .token__info h2 {
   font-size: 40px;
@@ -5432,6 +5440,9 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
     margin-right: 0;
     max-width: 300px;
     margin-bottom: 70px;
+  }
+  .nave-Despegue {
+    margin-left: 100px;
   }
 }
 .token-info__img::before {
