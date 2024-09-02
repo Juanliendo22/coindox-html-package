@@ -4391,17 +4391,18 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
   }
 }
 .hero__ico {
-  min-height: 1080px;
+  min-height: auto;
   padding-top: 220px;
+  padding-bottom: 100px;
 }
 @media (max-width: 1199px) {
   .hero__ico {
-    min-height: 930px;
+    height: auto;
   }
 }
 @media (max-width: 991px) {
   .hero__ico {
-    min-height: 1200px;
+    min-height: auto;
   }
 }
 @media (max-width: 767px) {
@@ -4549,6 +4550,7 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
 
 @media (max-width: 1199px) {
   .hero__bg {
+    display: none;
   }
 }
 
