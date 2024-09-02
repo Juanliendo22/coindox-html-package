@@ -4401,7 +4401,7 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
 }
 @media (max-width: 991px) {
   .hero__ico {
-    min-height: 1270px;
+    min-height: 1200px;
   }
 }
 @media (max-width: 767px) {
@@ -4480,22 +4480,35 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
 }
 
 .hero__bg {
-  background: radial-gradient(
-    circle,
-    rgba(255, 0, 255, 0.3) 0%,
-    rgba(0, 0, 0, 0.6) 70%
-  );
-  background-position: center;
+  background-position: end;
+  background-repeat: no-repeat;
+  background-size: cover;
   position: absolute;
   bottom: 0;
-  background-repeat: no-repeat;
   left: 0;
   right: 0;
   width: 100%;
-  height: 100%;
-  background-size: cover;
+  height: auto;
   z-index: -1;
+  display: flex;
+  align-items: end;
+  justify-content: end;
 }
+.hero__bg img {
+  width: 40%;
+  display: block;
+  mask-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 1) 70%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 1) 70%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
 .hero__image {
   position: absolute; /* O la posición que necesites */
   top: 0;
@@ -4536,7 +4549,6 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
 
 @media (max-width: 1199px) {
   .hero__bg {
-    display: none;
   }
 }
 
@@ -4550,11 +4562,19 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
     font-size: 54px;
     line-height: 69px;
   }
+  .hero__bg {
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+  }
 }
 @media (max-width: 767px) {
   .hero__content .title {
     font-size: 43px;
     line-height: 57px;
+  }
+  .hero__bg img {
+    width: 70%;
   }
 }
 .hero__content .title span {
@@ -4614,6 +4634,7 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
   left: 26%;
   bottom: 17.7%;
 }
+
 @media only screen and (min-width: 1200px) and (max-width: 1500px) {
   .hero__coin .coin--2 {
     bottom: 21.7%;
@@ -4643,11 +4664,12 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
 @media (max-width: 1199px) {
   .hero__coin .coin--3 {
     bottom: 8%;
+    margin-right: 30%;
   }
 }
 @media (max-width: 767px) {
   .hero__coin .coin--3 {
-    right: 3%;
+    left: 4%;
     bottom: 5%;
   }
 }
@@ -4699,7 +4721,7 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
 }
 @media (max-width: 767px) {
   .hero__coin .coin--6 {
-    bottom: 28%;
+    bottom: 18%;
   }
 }
 .hero__explore span {
