@@ -388,7 +388,7 @@ span {
   }
   .PunteroDardo {
     width: 300px;
-    margin-left: 35px;
+    margin-left: 200px;
   }
 }
 @media (max-width: 767px) {
@@ -4393,7 +4393,6 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
 .hero__ico {
   min-height: auto;
   padding-top: 220px;
-  padding-bottom: 100px;
 }
 @media (max-width: 1199px) {
   .hero__ico {
@@ -5466,7 +5465,7 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
     margin-bottom: 70px;
   }
   .nave-Despegue {
-    margin-left: 100px;
+    margin-left: 250px;
   }
 }
 .token-info__img::before {
@@ -6217,7 +6216,7 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
   background-color: #0b0b29;
 }
 .team__item {
-  width: 25%;
+  width: 50%;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
